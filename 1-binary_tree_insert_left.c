@@ -14,7 +14,7 @@ binary_tree_t *new_node;
 
 	if (parent->left != NULL)
 	{
-	   new_node->left = parent->left;
+		new_node->left = parent->left;
 		parent->left->parent = new_node;
 	}
 	parent->left = new_node;
